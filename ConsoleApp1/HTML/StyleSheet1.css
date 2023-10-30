@@ -1,0 +1,18 @@
+﻿body
+{
+    font-size: 20px;
+}
+
+.code-base {
+    color: blue;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.code-result {
+    color: red;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}

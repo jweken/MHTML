@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>My Last Testpage</title>
+    <link href="./Stylesheet1.css" rel="stylesheet" />
+    <script src="site.js"></script>
+</head>
+<body>
+
+    <h3>Results of javascript example-script</h3>
+    <pre>
+        var x = document.ELEMENT_NODE;
+        var y = document.ATTRIBUTE_NODE
+        document.alinkColor = "x0000FF";
+        var z = (document.title);
+        var a = document.baseURI.split("/");
+        var last = a.length - 1;
+        document.getElementById("demo").innerHTML = "node = " + x;
+        document.getElementById("demo1").innerHTML = "attrib-node  = " + y;
+        document.getElementById("demo2").innerHTML = "PageTitle = " + z;
+        document.getElementById("demo3").innerHTML = "Path = " + a[last];
+        
+        document.getElementById("demo4").innerHTML = "FullPath = " + document.baseURI;
+
+    </pre>
+    <div id="demo" class="code-result"></div>
+    <div id="demo1" class="code-result"></div>
+    <div id="demo2" class="code-result"></div>
+    <div id="demo3" class="code-result"></div>
+    <br />
+    <hr />
+     <div id="demo4" class="code-base"></div>
+
+
+
+    <script>
+        var x = document.ELEMENT_NODE;
+        var y = document.ATTRIBUTE_NODE
+        document.alinkColor = "x0000FF";
+        var z = (document.title);
+        var a = document.baseURI.split("/");
+        var last = a.length - 1;
+        document.getElementById("demo").innerHTML = ("node = " + x ); 
+        document.getElementById("demo1").innerHTML = "attrib-node  = " + y;
+        document.getElementById("demo2").innerHTML = "PageTitle = " + z;
+        document.getElementById("demo3").innerHTML = "Path = " + a[last];
+        document.getElementById("demo4").innerHTML = "FullPath = " + document.baseURI;
+
+    </script>
+
+</body>
+    
+</html>
